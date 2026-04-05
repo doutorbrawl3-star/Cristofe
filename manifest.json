@@ -1,0 +1,14 @@
+{
+  "name": "Meu App de Pascoa",
+  "short_name": "Pascoa",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/39SDYYTV/IMG-20260405-004648.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
