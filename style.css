@@ -1,13 +1,30 @@
 body {
   background: #ADD8E6;
+  display: flex;
+  flex-direction: column; /* Coloca um item embaixo do outro */
+  align-items: center;    /* Centraliza na horizontal */
+  justify-content: center; /* Centraliza na vertical */
+  min-height: 100vh;      /* Garante que o fundo ocupe a tela toda */
+  margin: 0;              /* Tira as bordas brancas padrão */
+  text-align: center;     /* Centraliza as linhas de texto */
+  font-family: sans-serif;
 }
 
 h1 {
   color: black;
-  font-size: 34px;
+  font-size: 50px; /* Aumentei o tamanho */
+  margin-bottom: 10px;
 }
 
 p {
-  color: brown
-  font-size 25px;
+  color: brown;   /* Adicionei o ; que faltava */
+  font-size: 30px; /* Corrigi e aumentei o tamanho */
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 20px; /* Deixa as pontas da foto redondinhas */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Dá um efeito de sombra */
+  max-width: 90%;      /* Garante que a foto não suma no celular */
+  height: auto;        /* Mantém a proporção da foto */
 }
